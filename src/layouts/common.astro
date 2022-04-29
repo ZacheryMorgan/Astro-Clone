@@ -37,6 +37,14 @@ const url = new URL(Astro.request.url).pathname
 								<a href="/blog" class=`${url==='/blog' ? 'text-[#af43ff]' : 'text-[#31274a]' } md:text-2xl text-xl
 									font-semibold hover:text-[#af43ff] `>Blog</a>
 							</li>
+							<li class="cursor-default">
+								<a href="/login" class=`${url==='/login' ? 'text-[#af43ff]' : 'text-[#31274a]' } md:text-2xl text-xl
+									font-semibold hover:text-[#af43ff] `>Login</a>
+							</li>
+							<li class="cursor-default">
+								<a href="/signup" class=`${url==='/signup' ? 'text-[#af43ff]' : 'text-[#31274a]' } md:text-2xl text-xl
+									font-semibold hover:text-[#af43ff] `>Sign up</a>
+							</li>
 							<li>
 								<img src="./github2.png" alt="github logo" class="hover:scale-110 cursor-pointer" />
 							</li>
