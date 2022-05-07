@@ -6,4 +6,4 @@
 
 ## 100 in Lighthouse
 
-### Bootcamp project to learn Astro and practice Tailwind, so I went overboard and used Astro.build as a reference to clone, while creating some of my own designs.
+### Bootcamp project to learn Astro and practice Tailwind, so I went overboard and used [Astro's site](https://Astro.build) as a reference to clone, while creating some of my own designs.
