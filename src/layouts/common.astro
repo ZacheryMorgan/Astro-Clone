@@ -7,6 +7,9 @@ const url = new URL(Astro.request.url).pathname
 
 	<head>
 		<meta charset="utf-8" />
+		<meta name="description"
+			content="Build fast websites, faster.
+Astro is a new kind of static site builder for the modern web. Powerful developer experience meets lightweight output.">
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<title>Astro clone..?</title>
@@ -77,13 +80,13 @@ const url = new URL(Astro.request.url).pathname
 				</p>
 			</div>
 
-			<slot/>
+			<slot />
 
 			<footer class="mt-20 bg-[#ebe3ed] w-full py-4 sticky top-[100vh]">
 				<nav class="flex justify-center pb-5 space-x-10">
-					<a href="/" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
-					<a href="/pricing" class="font-medium text-gray-500 hover:text-gray-900">Pricing</a>
-					<a href="/blog" class="font-medium text-gray-500 hover:text-gray-900">Blog</a>
+					<a href="/" class="font-medium text-black hover:scale-105">Home</a>
+					<a href="/pricing" class="font-medium text-black hover:scale-105">Pricing</a>
+					<a href="/blog" class="font-medium text-black hover:scale-105">Blog</a>
 				</nav>
 				<p class="text-center text-black">
 					&copy; 2021 Great Tool. All rights reserved.
